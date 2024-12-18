@@ -2,7 +2,7 @@
 ### Linux to Windows CMD Command Equivalents
 
 | **Linux Command**        | **Windows CMD Command**            | **Description**                              |
-|--------------------------|------------------------------------|----------------------------------------------|
+|---------------------------|-------------------------------------|----------------------------------------------|
 | `ls`                     | `dir`                              | List files and directories.                  |
 | `cd`                     | `cd`                               | Change directory.                            |
 | `pwd`                    | `cd`                               | Show current directory.                      |
@@ -37,8 +37,8 @@
 
 ### Linux to PowerShell Command Equivalents
 
-| **Linux Command**      | **PowerShell Command**              | **Description**                                 |
-|------------------------|-------------------------------------|-------------------------------------------------|
+| **Linux Command**      | **PowerShell Command**               | **Description**                                  |
+|-------------------------|--------------------------------------|-------------------------------------------------|
 | `ls`                   | `ls`                                | List files and directories.                     |
 | `cd`                   | `cd`                                | Change directory.                               |
 | `pwd`                  | `pwd`                               | Print the current directory.                    |

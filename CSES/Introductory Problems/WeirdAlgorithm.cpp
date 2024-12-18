@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+    fast_io; // Speeds up I/O
     ll n;
     cin>>n;
     while(n!=1)

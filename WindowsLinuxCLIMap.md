@@ -2,7 +2,7 @@
 ### Linux to Windows CMD Command Equivalents
 
 | **Linux Command**        | **Windows CMD Command**            | **Description**                              |
-|---------------------------|-------------------------------------|----------------------------------------------|
+|--------------------------|------------------------------------|----------------------------------------------|
 | `ls`                     | `dir`                              | List files and directories.                  |
 | `cd`                     | `cd`                               | Change directory.                            |
 | `pwd`                    | `cd`                               | Show current directory.                      |
@@ -20,7 +20,7 @@
 | `touch`                  | `type nul > filename`              | Create an empty file.                        |
 | `chmod`                  | `attrib`                           | Change file permissions (limited in Windows).|
 | `df`                     | `wmic logicaldisk get size,freespace,caption` | Display disk space usage.         |
-| `du`                     | N/A (Use third-party tools)         | Show directory space usage.                  |
+| `du`                     | N/A (Use third-party tools)         | Show directory space usage.                 |
 | `ps`                     | `tasklist`                         | List running processes.                      |
 | `kill`                   | `taskkill`                         | Terminate a process by name or PID.          |
 | `whoami`                 | `whoami`                           | Show the current user.                       |
@@ -29,7 +29,7 @@
 | `ping`                   | `ping`                             | Test network connectivity.                   |
 | `curl` / `wget`          | `curl` (requires installation)     | Download files or make HTTP requests.        |
 | `tar`                    | N/A (Use `tar.exe` in PowerShell)  | Archive/extract files.                       |
-| `zip` / `unzip`          | N/A (Use third-party tools)         | Compress or extract ZIP files.               |
+| `zip` / `unzip`          | N/A (Use third-party tools)        | Compress or extract ZIP files.               |
 | `top` / `htop`           | `taskmgr`                          | Monitor system processes.                    |
 | `exit`                   | `exit`                             | Exit the command-line interface.             |
 
@@ -37,8 +37,8 @@
 
 ### Linux to PowerShell Command Equivalents
 
-| **Linux Command**      | **PowerShell Command**               | **Description**                                  |
-|-------------------------|--------------------------------------|-------------------------------------------------|
+| **Linux Command**      | **PowerShell Command**               | **Description**                                |
+|-------------------------|-------------------------------------|------------------------------------------------|
 | `ls`                   | `ls`                                | List files and directories.                     |
 | `cd`                   | `cd`                                | Change directory.                               |
 | `pwd`                  | `pwd`                               | Print the current directory.                    |
